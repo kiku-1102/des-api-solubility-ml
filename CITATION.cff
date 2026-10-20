@@ -1,0 +1,61 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite both the software and the paper."
+title: "desml - machine-learning prediction of API solubility in deep eutectic solvents"
+abstract: >-
+  Code for predicting the mole-fraction solubility of active pharmaceutical
+  ingredients in deep eutectic solvents from RDKit physicochemical descriptors
+  and molecular graphs, without quantum-chemical calculations.
+type: software
+license: MIT
+version: "1.0.0"
+repository-code: "https://github.com/kiku-1102/des-api-solubility-ml"
+url: "https://github.com/kiku-1102/des-api-solubility-ml"
+# Fill in once a release has been made and archived on Zenodo:
+# date-released: "2026-__-__"
+# doi: "10.5281/zenodo.XXXXXXX"
+authors:
+  - family-names: Kikuchi
+    given-names: Kodai
+    affiliation: "Graduate School of Science and Engineering, Soka University"
+    email: kkodai@soka.ac.jp
+  - family-names: Kaneko
+    given-names: Kazuyoshi
+    affiliation: "Faculty of Science and Engineering, Soka University"
+  - family-names: Fujimoto
+    given-names: Kazushi
+    affiliation: "Faculty of Chemistry, Materials and Bioengineering, Kansai University"
+  - family-names: Matsuyama
+    given-names: Tatsushi
+    affiliation: "Graduate School of Science and Engineering, Soka University"
+  - family-names: Ida
+    given-names: Junichi
+    affiliation: "Graduate School of Science and Engineering, Soka University"
+    email: ida@soka.ac.jp
+keywords:
+  - deep eutectic solvent
+  - drug solubility prediction
+  - machine learning
+  - RDKit descriptors
+  - graph neural network
+preferred-citation:
+  type: article
+  title: >-
+    Predicting drug solubility in deep eutectic solvents for unseen component
+    combinations without quantum-chemical computation
+  authors:
+    - family-names: Kikuchi
+      given-names: Kodai
+    - family-names: Kaneko
+      given-names: Kazuyoshi
+    - family-names: Fujimoto
+      given-names: Kazushi
+    - family-names: Matsuyama
+      given-names: Tatsushi
+    - family-names: Ida
+      given-names: Junichi
+  journal: "Journal of Cheminformatics"
+  # Fill in on acceptance:
+  # year: 2026
+  # volume: __
+  # start: __
+  # doi: "10.1186/s13321-__"

@@ -1,0 +1,12 @@
+# pip equivalent of environment.yml (Python 3.10).
+# Install RDKit first if your platform needs a wheel: pip install rdkit==2023.9.6
+numpy==1.26.4
+pandas==2.3.3
+scipy
+matplotlib
+scikit-learn==1.7.2
+rdkit==2023.9.6
+xgboost==3.2.0
+lightgbm==4.6.0
+torch==2.5.1
+torch-geometric==2.7.0

@@ -1,0 +1,30 @@
+# Conda environment for the DES solubility study.
+#
+# The versions are those used for the published results (manuscript Section
+# 2.5.4).  RDKit is pinned deliberately: Descriptors.descList grows between
+# releases, and only 2023.09.6 gives the 202 descriptors (and hence the
+# 76 / 64 / 6 feature-selection counts) reported in the paper.
+#
+#   conda env create -f environment.yml
+#   conda activate desml
+#
+# For a CUDA build of PyTorch replace the pytorch line with the command from
+# https://pytorch.org/get-started/locally/ for your CUDA version (the published
+# runs used CUDA 12.4).
+name: desml
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy=1.26.4
+  - pandas=2.3.3
+  - scipy
+  - matplotlib
+  - scikit-learn=1.7.2
+  - rdkit=2023.09.6
+  - xgboost=3.2.0
+  - lightgbm=4.6.0
+  - pytorch=2.5.1
+  - pip
+  - pip:
+      - torch-geometric==2.7.0
